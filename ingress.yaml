@@ -21,4 +21,5 @@ spec:
          service:
            name: hellov1
            port:
-             number: 8080
+             number: 80
+             

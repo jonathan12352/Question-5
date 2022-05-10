@@ -8,13 +8,13 @@ spec:
  rules:
  - http:
      paths:
-     - path: /v1/tasks/task
+     - path: /api/Task
        pathType: Prefix
        backend:
          service:
            name: rabbitmqproducer
            port:
-             number: 31290
+             number: 80
      - path: /v1/hello
        pathType: Prefix
        backend:
